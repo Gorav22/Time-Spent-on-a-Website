@@ -1,0 +1,13 @@
+{  
+  "manifest_version": 3,  
+  "name": "Time Tracker",  
+  "version": "1.0",  
+  "description": "Tracks the time spent on each website.",   
+  "content_scripts": [  
+    {  
+      "matches": ["https://*/*"],  
+      "js": ["logic.js"],  
+      "css": ["style.css"]
+    }
+  ] 
+}
